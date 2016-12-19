@@ -1,6 +1,5 @@
-/**
- * Created by kevinjones on 11/16/16.
- */
+//Created by kevinjones on 11/16/16.//
+
 (function () {
     "use strict";
     var btn1 = document.getElementById("btn1");
@@ -130,7 +129,6 @@
     btnC.addEventListener("click", clear);
     btnE.addEventListener("click", evaluate);
 
-
 //EVALUATE...
     function evaluate() {
         var num1 = document.getElementById("left-input").value;
@@ -145,15 +143,11 @@
     }
 
 //CLEAR ALL
-    function clear(){
-        document.getElementById("left-input").value ="";
-        document.getElementById("middle-input").value ="";
-        document.getElementById("right-input").value ="";
+    function clear() {
+        document.getElementById("left-input").value = "";
+        document.getElementById("middle-input").value = "";
+        document.getElementById("right-input").value = "";
     }
-
-
-
-
 })();
 
 
